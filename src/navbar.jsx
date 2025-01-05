@@ -4,7 +4,7 @@ import logo from '../images/pt_logo.png';
 
 export function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
             <div className="container navDiv">
                 <a className="navbar-brand navbarLogo" href="#">
                     <img src={logo} alt="Logo" width="40" height="30" className="d-inline-block align-text-top " />
