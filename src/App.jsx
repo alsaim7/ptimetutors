@@ -13,32 +13,30 @@ function AppContent() {
   return (
     <>
       <Navbar />
-      {/* <Banner /> */}
-      {/* {location.pathname === '/' || location.pathname === '' ? <Description /> : null} */}
-      {/* {location.pathname === '/' ? <Description /> : null} */}
-      <Routes>
+      <main>
+        <Routes>
+          <Route path='/' element={
+            <>
+              <Banner />
+              <Description />
+            </>
+          }
+          />
 
-        <Route path='/' element={
-          <>
-            <Banner />
-            <Description />
-          </>
-        }
-        />
+          <Route path='/contact' element={
+            <>
+              <Banner />
+              <Contact />
+            </>
+          } />
 
-        <Route path='/contact' element={
-          <>
-            <Banner />
-            <Contact />
-          </>
-        } />
-
-        <Route path='/jobs' element={
-          <>
-            <Jobs/>
-          </>
-        }/>
-      </Routes>
+          <Route path='/jobs' element={
+            <>
+              <Jobs />
+            </>
+          } />
+        </Routes>
+      </main>
       <Watermark />
     </>
   )

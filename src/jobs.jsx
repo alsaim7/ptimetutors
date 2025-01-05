@@ -1,6 +1,6 @@
 export function Jobs() {
     return (
-        <div className="container mt-5 mb-5">
+        <div className="container mt-5 mb-5" style={{height: '100%'}}>
             <div className="row">
                 <div className="col-sm-6 mb-5 mb-sm-0">
                     <div className="card">
