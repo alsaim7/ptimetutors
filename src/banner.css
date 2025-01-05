@@ -1,0 +1,31 @@
+.bannerDiv{
+    height: 20rem;
+    position: relative;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerBtn{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    padding: 15px;
+    background-color: #2C2C2C;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.bannerBtn:hover{
+    background-color: white;
+    color: black
+}
+
+/* @media (max-width: 768px) {
+    .bannerDiv{
+        height: 10rem;
+    }
+} */

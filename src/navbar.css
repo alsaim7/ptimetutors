@@ -1,0 +1,17 @@
+.navbarLogo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.navDiv{
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+}
+
+.navLinks{
+    display: flex;
+    gap: 30%;
+    white-space: nowrap;
+}
