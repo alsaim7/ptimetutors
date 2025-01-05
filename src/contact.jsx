@@ -1,3 +1,5 @@
+import logo from '../images/pt_logo.png';
+
 export function Contact() {
     return (
         <div className="mb-5">
@@ -33,7 +35,7 @@ export function Contact() {
                 </div>
             </div>
             <div className="container d-flex justify-content-center b-2" style={{ width: '100px' }}>
-                <img src="../images/pt_logo.png" className="img-fluid" alt="..."></img>
+                <img src={logo} className="img-fluid" alt="..."></img>
             </div>
         </div>
     )

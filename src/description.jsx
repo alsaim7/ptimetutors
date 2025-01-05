@@ -1,6 +1,9 @@
 import './description.css'
 import { Quote } from './quote'
 import { Link } from 'react-router-dom'
+import Ques from '../images/ques.jpg'
+import Services from '../images/services.jpg'
+import Form from '../images/form.jpg'
 
 export function Description() {
     return (
@@ -9,7 +12,7 @@ export function Description() {
 
             <div className='container d-flex justify-content-md-center gap-5 mb-5 flex-column flex-md-row align-items-center align-items-md-start'>
                 <div className="card mt-3 desCard" style={{ width: "18rem" }}>
-                    <img src="../images/ques.jpg" className="card-img-top" alt="..." />
+                    <img src={Ques} className="card-img-top" alt="?" />
                     <div className="card-body">
                         <h5 className="card-title">Why choose us?</h5>
                         <ul className="list-group list-group-flush">
@@ -22,7 +25,7 @@ export function Description() {
                     </div>
                 </div>
                 <div className="card mt-3 desCard" style={{ width: "18rem" }}>
-                    <img src="../images/services.jpg" className="card-img-top" alt="..." />
+                    <img src={Services} className="card-img-top" alt="services" />
                     <div className="card-body">
                         <h5 className="card-title">Our Services</h5>
                         <ul className="list-group list-group-flush">
@@ -36,7 +39,7 @@ export function Description() {
                     </div>
                 </div>
                 <div className="card mt-3 mb-5 desCard" style={{ width: "18rem" }}>
-                    <img src="../images/form.jpg" className="card-img-top" alt="..." />
+                    <img src={Form} className="card-img-top" alt="form" />
                     <div className="card-body">
                         <h5 className="card-title">Steps to Register</h5>
                         <ul className="list-group list-group-flush mb-2">
