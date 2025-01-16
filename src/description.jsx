@@ -70,7 +70,7 @@ export function Description() {
                     start: 'top 70%',
                     end: 'top 80%',
                     // scrub: true,
-                    markers: true
+                    // markers: true
                 }
             })
 
