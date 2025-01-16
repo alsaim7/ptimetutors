@@ -1,5 +1,3 @@
-import './watermark.css'
-
 export function Watermark() {
     return (
         <footer className="footer mt-auto py-3 bg-dark watermarkDiv" data-bs-theme='dark'>
