@@ -113,7 +113,7 @@ export function Description() {
 
             <div className='container d-flex justify-content-md-center gap-5 mb-5 flex-column flex-md-row align-items-center align-items-md-start'>
                 <div className="cardF1 card mt-3 desCard" style={{ width: "18rem" }}>
-                    <img src={Ques} className="card-img-top" alt="?" />
+                    <img src={Ques} className="card-img-top" alt="?" loading='lazy'/>
                     <div className="card-body">
                         <h5 className="card-title">Why choose us?</h5>
                         <ul className="list-group list-group-flush">
@@ -126,7 +126,7 @@ export function Description() {
                     </div>
                 </div>
                 <div className="cardF2 card mt-3 desCard" style={{ width: "18rem" }}>
-                    <img src={Services} className="card-img-top" alt="services" />
+                    <img src={Services} className="card-img-top" alt="services" loading='lazy'/>
                     <div className="card-body">
                         <h5 className="card-title">Our Services</h5>
                         <ul className="list-group list-group-flush">
@@ -140,7 +140,7 @@ export function Description() {
                     </div>
                 </div>
                 <div className="cardF3 card mt-3 mb-5 desCard" style={{ width: "18rem" }}>
-                    <img src={Form} className="card-img-top" alt="form" />
+                    <img src={Form} className="card-img-top" alt="form" loading='lazy'/>
                     <div className="card-body">
                         <h5 className="card-title">Steps to Register</h5>
                         <ul className="list-group list-group-flush mb-2">
