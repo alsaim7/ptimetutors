@@ -17,8 +17,8 @@ export function Description() {
                 // ease: 'power1.in',
                 scrollTrigger: {
                     trigger: '.cardF1',
-                    start: 'top 70%',
-                    end: 'top 40%',
+                    start: 'top 75%',
+                    end: 'top 80%',
                     // scrub: true,
                     // markers: true
                 }
@@ -31,8 +31,8 @@ export function Description() {
                 // ease: 'power1.in',
                 scrollTrigger: {
                     trigger: '.cardF2',
-                    start: 'top 60%',
-                    end: 'top 40%',
+                    start: 'top 65%',
+                    end: 'top 80%',
                     // scrub: true,
                     // markers: true
                 }
@@ -46,8 +46,8 @@ export function Description() {
                 // ease: 'power1.in',
                 scrollTrigger: {
                     trigger: '.cardF3',
-                    start: 'top 70%',
-                    end: 'top 40%',
+                    start: 'top 75%',
+                    end: 'top 80%',
                     // scrub: true,
                     // markers: true
                 }
