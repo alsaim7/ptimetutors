@@ -57,7 +57,7 @@ export function Description() {
 
         mm.add("(max-width: 768px)",() => {
             gsap.from('.cardF1', {
-                x: -200,
+                x: -100,
                 opacity:0,
                 duration: 1,
                 // ease: 'power1.in',
@@ -71,7 +71,7 @@ export function Description() {
             })
 
             gsap.from('.cardF2', {
-                x: 200,
+                x: 100,
                 opacity:0,
                 duration: 1,
                 // ease: 'power1.in',
@@ -86,7 +86,7 @@ export function Description() {
             })
 
             gsap.from('.cardF3', {
-                x: -200,
+                x: -100,
                 opacity:0,
                 duration: 1,
                 // ease: 'power1.in',
