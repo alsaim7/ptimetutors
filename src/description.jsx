@@ -109,7 +109,7 @@ export function Description() {
 
             <div className='container d-flex justify-content-md-center gap-5 mb-5 flex-column flex-md-row align-items-center align-items-md-start'>
                 <div className="cardF1 card mt-3 desCard" style={{ width: "18rem" }}>
-                    {/* <img src="https://res.cloudinary.com/dnkqy2kkr/image/upload/c_thumb,w_200,g_face/v1737121988/ques_kkl9zf.jpg" className="card-img-top" alt="?"/> */}
+                    <img src="https://res.cloudinary.com/dnkqy2kkr/image/upload/v1737121988/ques_kkl9zf.jpg" className="card-img-top" alt="?"/>
                     <div className="card-body">
                         <h5 className="card-title">Why choose us?</h5>
                         <ul className="list-group list-group-flush">
@@ -122,7 +122,7 @@ export function Description() {
                     </div>
                 </div>
                 <div className="cardF2 card mt-3 desCard" style={{ width: "18rem" }}>
-                    {/* <img src="https://res.cloudinary.com/dnkqy2kkr/image/upload/v1737121987/services_ezy60d.jpg" className="card-img-top" alt="services"/> */}
+                    <img src="https://res.cloudinary.com/dnkqy2kkr/image/upload/v1737121987/services_ezy60d.jpg" className="card-img-top" alt="services"/>
                     <div className="card-body">
                         <h5 className="card-title">Our Services</h5>
                         <ul className="list-group list-group-flush">
@@ -136,7 +136,7 @@ export function Description() {
                     </div>
                 </div>
                 <div className="cardF3 card mt-3 mb-5 desCard" style={{ width: "18rem" }}>
-                    {/* <img src="https://res.cloudinary.com/dnkqy2kkr/image/upload/v1737121987/form_ou4jr7.jpg" className="card-img-top" alt="form"/> */}
+                    <img src="https://res.cloudinary.com/dnkqy2kkr/image/upload/v1737121987/form_ou4jr7.jpg" className="card-img-top" alt="form"/>
                     <div className="card-body">
                         <h5 className="card-title">Steps to Register</h5>
                         <ul className="list-group list-group-flush mb-2">
