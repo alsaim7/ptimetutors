@@ -59,7 +59,7 @@ export function Description() {
             gsap.from('.cardF1', {
                 x: -100,
                 opacity:0,
-                duration: 1,
+                duration: 0.5,
                 // ease: 'power1.in',
                 scrollTrigger: {
                     trigger: '.cardF1',
@@ -73,7 +73,7 @@ export function Description() {
             gsap.from('.cardF2', {
                 x: 100,
                 opacity:0,
-                duration: 1,
+                duration: 0.5,
                 // ease: 'power1.in',
                 scrollTrigger: {
                     trigger: '.cardF2',
@@ -88,7 +88,7 @@ export function Description() {
             gsap.from('.cardF3', {
                 x: -100,
                 opacity:0,
-                duration: 1,
+                duration: 0.5,
                 // ease: 'power1.in',
                 scrollTrigger: {
                     trigger: '.cardF3',
