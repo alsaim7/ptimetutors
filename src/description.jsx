@@ -107,7 +107,7 @@ export function Description() {
         <>
             <Quote />
 
-            <div className='container d-flex justify-content-md-center gap-5 mb-5 flex-column flex-md-row align-items-center align-items-md-start'>
+            <div className='container d-flex justify-content-md-center gap-5 mb-5 flex-column flex-md-row align-items-center align-items-md-start' style={{overflowX: 'hidden'}}>
                 <div className="cardF1 card mt-3 desCard" style={{ width: "18rem" }}>
                     <img src="https://res.cloudinary.com/dnkqy2kkr/image/upload/v1737121988/ques_kkl9zf.jpg" className="card-img-top" alt="?"/>
                     <div className="card-body">
