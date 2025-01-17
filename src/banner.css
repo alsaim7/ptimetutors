@@ -1,7 +1,7 @@
 .bannerDiv{
     height: 20rem;
     position: relative;
-    background-image: url('../images/banner.jpg');
+    background-image: url('https://res.cloudinary.com/dnkqy2kkr/image/upload/v1737121986/banner_rzq0ms.jpg');
     background-size: cover;
     background-position: center;
 }
