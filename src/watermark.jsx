@@ -1,15 +1,7 @@
 export function Watermark() {
     return (
-        // <footer className="footer mt-auto py-3 bg-dark watermarkDiv" data-bs-theme='dark'>
-        //     <div className="container text-center">
-        //         <span className="text-white-50">&copy; 2025 Prime Tutors</span>
-        //     </div>
-        // </footer>
         <footer className="d-flex flex-wrap justify-content-md-center justify-content-evenly align-items-center py-3 bg-dark" data-bs-theme='dark'>
             <div className="col-md-4">
-                {/* <a href="" className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                        
-                    </a> */}
                 <span className="mb-3 mb-md-0 text-body-secondary text-white-50">&copy; 2025 Prime Tutors</span>
             </div>
             <ul className="nav col-md-4 justify-content-end list-unstyled d-flex align-items-center">

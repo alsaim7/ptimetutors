@@ -1,8 +1,19 @@
+import { useEffect } from "react"
+import gsap from "gsap"
 export function Contact() {
+    useEffect(()=>{
+        const ctx=gsap.context(()=>{
+            gsap.from(".contactCard",{
+                scale:0,
+                duration:0.5
+            })
+        })
+        return()=>ctx.revert()
+    })
     return (
-        <div className="mb-5">
+        <div className="mb-3">
             <div className="container mb-3 mt-4 d-flex justify-content-center">
-                <div className="card" style={{ width: "28rem" }}>
+                <div className="card contactCard" style={{ width: "28rem" }}>
                     <h5 className="card-header">Contact Us</h5>
                     <ul className="list-group list-group-flush">
 
@@ -32,7 +43,7 @@ export function Contact() {
                     </ul>
                 </div>
             </div>
-            <div className="container d-flex justify-content-center b-2" style={{ width: '100px' }}>
+            <div className="container d-flex justify-content-center b-2" style={{ width: '80px' }}>
                 <img src="https://res.cloudinary.com/dnkqy2kkr/image/upload/v1737121986/pt_logo_n6ma0e.png" className="img-fluid" alt="..."></img>
             </div>
         </div>
