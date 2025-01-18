@@ -67,6 +67,7 @@ export function Description() {
                     end: 'top 80%',
                     // scrub: true,
                     // markers: true
+                    pin:true
                 }
             })
 
@@ -81,6 +82,7 @@ export function Description() {
                     end: 'top 80%',
                     // scrub: true,
                     // markers: true
+                    pin:true
                 }
 
             })
@@ -96,6 +98,7 @@ export function Description() {
                     end: 'top 80%',
                     // scrub: true,
                     // markers: true
+                    pin:true
                 }
 
             })
