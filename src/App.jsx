@@ -6,7 +6,7 @@ import { Contact } from './contact'
 import { Banner } from './banner'
 import { Watermark } from './watermark'
 import { Description } from './description'
-import { Jobs } from './jobs';
+import { Jobs } from './jobs'
 
 function AppContent() {
   const location = useLocation()

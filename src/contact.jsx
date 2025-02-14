@@ -11,7 +11,7 @@ export function Contact() {
         return()=>ctx.revert()
     })
     return (
-        <div className="mb-3">
+        <div className="mb-5">
             <div className="container mb-3 mt-4 d-flex justify-content-center">
                 <div className="card contactCard" style={{ width: "28rem" }}>
                     <h5 className="card-header">Contact Us</h5>
